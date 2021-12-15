@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: Verdana;
+  color: white;
+  line-height: 200%;
+}
+
+h1 {
+  margin: 0;
+  color: white;
+}
+
+#intro {
+  background-image: url("images/intro-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  text-align: center;
+}
+
+#intro > h1 {
+  text-transform: uppercase;
+  margin: 100px 0 0 0;
+  font-size: 34px;
+  display: inline-block;
+}
+
+#aboutus {
+  background-color: #262626;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#aboutus .column {
+  margin: 20px;
+  padding: 0 10px;
+  text-align: left;
+  display: inline-block;
+  width: 40%;
+}
+
+#aboutus .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#aboutus img {
+  margin: 20px;
+  width: 100%;
+}
+
+#services {
+  background-color: #262626;
+  text-align: center;
+  padding: 30px;
+}
+
+#services .row {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#services .column {
+  margin: 20px;
+  width: 300px;
+  margin: 0 10px;
+  background-color: rgba(49, 49, 49, 0.5);
+}
+
+#services .column img {
+  width: 100%;
+}
+
+#services .column p {
+  margin: 20px;
+  padding: 5px 10px;
+}
+
+#mission {
+  background-image: url(images/mission-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  padding: 200px;
+}
+
+#mission .mission-statement {
+  width: 60%;
+  padding-top: 50px;
+  display: inline-block;
+}
+
+#instagram {
+  background-color: #262626;
+  text-align: center;
+  padding: 30px;
+}
+
+#insragram > h1 {
+  text-transform: uppercase;
+}
+
+#instagram .row {
+  display: flex;
+}
+
+#instagram a {
+  text-decoration: none;
+  width: 20%;
+}
+
+#instagram img {
+  margin: 20px;
+  width: 100%;
+}
+
+#testimonials {
+  background-color: #262626;
+  text-align: center;
+  padding: 100px;
+}
+
+.testimonials-wrapper {
+  margin: 20px;
+  width: 60%;
+  display: inline-block;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: rgba(49, 49, 49, 0.5);
+}
+
+.testimonial img {
+  height: 200px;
+  border-radius: 50%;
+}
+
+.testimonial .text {
+  padding: 5px 15px;
+}
+
+footer {
+  background-color: #262626;
+  text-align: center;
+  padding-top: 100px;
+  height: 400px;
+}
+
+footer a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana;
+    align-items: center;
+    margin: 20px 700px;
+}
+
+footer div {
+    margin: 20px;
+    width: 60%;
+    padding: 50px;
+    display: inline-block;
+}
