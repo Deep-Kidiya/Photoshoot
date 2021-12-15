@@ -114,7 +114,6 @@ h1 {
 }
 
 #instagram img {
-  margin: 20px;
   width: 100%;
 }
 
@@ -163,7 +162,7 @@ footer a {
 }
 
 footer div {
-    margin: 20px;
+ 
     width: 60%;
     padding: 50px;
     display: inline-block;
